@@ -29,3 +29,9 @@ def replace_word(update, context):
 
 # define a MessageHandler with the "Filters.text" filter to handle text messages
 message_handler = MessageHandler(Filters.text, replace_word)
+
+# add the MessageHandler to the Updater
+updater.dispatcher.add_handler(message_handler)
+
+# start the polling loop to listen for messages
+updater.start_polling()
