@@ -1,10 +1,10 @@
 from telegram import Bot
 
 # replace <BOT_TOKEN> with your bot token
-bot = Bot(token="<BOT_TOKEN>")
+bot = Bot(token="6a1b5084e59012093525c2443880a09a")
 
 # replace <NUMERIC_USER_ID> with the actual numeric user ID
-user_id = "<NUMERIC_USER_ID>"
+user_id = "5102746389"
 
 # replace <MESSAGE_TEXT> with the message you want to send
 message_text = "Hi, @" + user_id + " - this is a message for you!"
